@@ -1,0 +1,22 @@
+:root {
+    /* fonts */
+    --main-font: "Roboto";
+    --logo-font: "Raleway";
+
+    /* text color */
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-text-color: #2196F3;
+    --title-text-color: #FFFFFF;
+
+    /* bg-colors */
+    --main-bg-color: #E5E5E5;
+    --secondary-bg-color: #F5F4FA;
+    --title-bg-color: #2F303A;
+    --header-bg-color: #FFFFFF;
+}
+
+body {
+    background-color: #E5E5E5;
+
+}
