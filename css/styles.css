@@ -222,3 +222,43 @@ a {
     color: var(--title-text-color)
 }
 
+/* Portfolio section */
+
+/* Filter by projects */
+
+.filter-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    background-color: var(--secondary-bg-color);
+    border: none;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--title-text-color);
+    background: #2196F3
+}
+
+/* Project examples */
+
+.projects-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color)
+}
+
+.projects-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color)
+}
