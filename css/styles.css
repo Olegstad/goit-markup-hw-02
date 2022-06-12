@@ -33,7 +33,7 @@ a {
     text-decoration: none;
 }
 
-/* Header section */
+/* Header */
 .header {
     background-color: var(--main-bg-color)
 }
@@ -83,6 +83,9 @@ a {
 }
 
 /* Main section */
+
+/* Lead banner */
+
 .lead {
     background-color: var(--title-bg-color);
 }
