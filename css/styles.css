@@ -44,11 +44,11 @@ a {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--accent-text-color)
+    color: var(--main-text-color)
 }
 
 .logo-studio {
-    color: var(--main-text-color)
+    color: var(--accent-text-color)
 }
 
 .header-link {
@@ -111,6 +111,8 @@ a {
     letter-spacing: 0.06em;
     color: var(--title-text-color);
     background: #2196F3;
+    border: none;
+    cursor: pointer;
 }
 
 .lead-btn:hover,
@@ -118,5 +120,105 @@ a {
     background: #188CE8;
 }
 
+/* Advantages section */
 
+.advantages-title {
+    display: none;
+}
+
+.advantages-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-text-color) 
+}
+
+.advantages-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color)
+}
+
+/* Activity section */
+
+.activity-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--title-bg-color)
+}
+
+/* Team section */
+
+.team {
+    background-color: var(--secondary-bg-color);
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--title-bg-color)
+}
+
+.team-item {
+    background-color: var(--main-bg-color);
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color)
+}
+
+.team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color)
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--title-bg-color);
+}
+
+.footer-logo {
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color)
+}
+
+.footer-contact-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-map {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color)
+}
 
