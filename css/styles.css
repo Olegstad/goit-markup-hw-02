@@ -213,6 +213,11 @@ a {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+    color: var(--accent-text-color)
+}
+
 .footer-map {
     font-style: normal;
     font-weight: 400;
@@ -220,6 +225,11 @@ a {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--title-text-color)
+}
+
+.footer-map:hover,
+.footer-map:focus {
+    color: var(--accent-text-color)
 }
 
 /* Portfolio section */
