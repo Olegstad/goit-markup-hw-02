@@ -13,6 +13,7 @@
     --main-bg-color: #FFFFFF;
     --secondary-bg-color: #F5F4FA;
     --title-bg-color: #2F303A;
+    --accent-bg-color: #2196F3;
     
 }
 
@@ -99,6 +100,8 @@ a {
 }
 
 .lead-btn {
+    border-radius: 4px;
+    padding: 10px 32px;
     font-family: inherit;
     font-size: 16px;
     line-height: 1.88;
@@ -107,7 +110,7 @@ a {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
-    background: #2196F3;
+    background: var(--accent-bg-color);
     border: none;
     cursor: pointer;
 }
@@ -145,7 +148,7 @@ a {
 
 /* Activity section */
 
-.activity-title {
+.title {
     font-size: 36px;
     line-height: 1.17;
     color: var(--title-bg-color)
@@ -155,12 +158,6 @@ a {
 
 .team {
     background-color: var(--secondary-bg-color);
-}
-
-.team-title {
-    font-size: 36px;
-    line-height: 1.17;
-    color: var(--title-bg-color)
 }
 
 .team-item {
@@ -212,16 +209,13 @@ a {
     color: var(--title-text-color)
 }
 
-.footer-map:hover,
-.footer-map:focus {
-    color: var(--accent-text-color)
-}
-
 /* Portfolio section */
 
 /* Filter by projects */
 
 .filter-btn {
+    border-radius: 4px;
+    padding: 6px 22px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -235,7 +229,12 @@ a {
 .filter-btn:hover,
 .filter-btn:focus {
     color: var(--title-text-color);
-    background: #2196F3
+    background: var(--accent-bg-color)
+}
+
+.active {
+    color: var(--title-text-color);
+    background-color: var(--accent-bg-color)
 }
 
 /* Project examples */
