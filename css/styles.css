@@ -137,6 +137,7 @@ a {
 }
 
 .advantages-subtitle {
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
@@ -243,6 +244,7 @@ a {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--main-text-color);
 }
 
 .projects-desc {
